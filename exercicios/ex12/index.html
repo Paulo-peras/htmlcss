@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        video{
+            width: 400px;
+            height: auto;
+         
+        }
+        iframe{
+            margin-left: 400px;
+            margin-right: auto; 
+            border-radius: 20px;
+            margin-top: 40px;
+            width: 700px;
+            height:400px;
+
+          
+        }
+    </style>
+</head>
+<body>
+    <h1>vamos adicionar um video no nosso servidor</h1>
+    
+    <video  preload="metadata" poster="video/icone-facebook.png" controls >
+        <source src="video/video.m4v" type="video/m4v">
+        <source src="video/video.mp4" type="video/mp4">
+        <source src="video/video.ogv" type="video/ogv">
+        <source src="video/video.webm" type="video/webm">
+    </video>
+    <h1>inserindo o video</h1>
+    <iframe  src="https://www.youtube.com/embed/3hng-hmSv2Y?si=3FmpDB8v_YCdn7so" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>
