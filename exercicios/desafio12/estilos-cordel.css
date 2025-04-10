@@ -1,56 +1,60 @@
-@charset "UTF-8"; 
+@charset "UTF-8";
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-:root{
+
+:root {
     --font1: Verdana, Geneva, Tahoma, sans-serif;
-    --font2:'Passion One';
+    --font2: 'Passion One';
     --font3: : "Pacifico";
 }
 
 
 
-html, body{
+html,
+body {
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--font1);
 
 }
 
-header{
+header {
     background-color: black;
     color: white;
     text-align: center;
 
 }
-header>h1{
+
+header>h1 {
     padding-top: 50px;
     font-variant: small-caps;
-    font-family:var(--font2);
+    font-family: var(--font2);
     font-size: 4em;
-     
+
 }
 
 header>p {
     padding-bottom: 50px;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
-section{
+section {
     padding-top: 10%;
     padding-bottom: 10%;
     line-height: 2em;
@@ -60,42 +64,44 @@ section{
 
 }
 
-section>p{
+section>p {
     padding-bottom: 2em;
 }
-section.normal{
+
+section.normal {
     background-color: white;
     color: black;
 }
 
-section.img{
+section.img {
     background-color: rgba(62, 61, 62, 0.782);
     color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.208);  background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.208);
+    background-size: cover;
     background-attachment: fixed;
 }
 
 
-section.img>p{
+section.img>p {
     background-color: rgba(0, 0, 0, 0.621);
     display: inline-block;
     text-shadow: 2px 1px 0px black;
-    
-    
+
+
 }
 
-section#img01{
+section#img01 {
     background-image: url(imagens/background001.jpg);
     background-position: right center;
-  
-  
+
+
 
 }
 
-section#img02{
+section#img02 {
     background-image: url(imagens/background002.jpg);
     background-position: right center;
-    
+
 }
 
 
@@ -103,8 +109,8 @@ section#img02{
 
 
 
- 
-footer{
+
+footer {
     background-color: black;
     color: white;
     padding: 10px;
