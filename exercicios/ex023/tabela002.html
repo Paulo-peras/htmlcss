@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border:1px solid black ;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: lightgray;
+            
+        }
+        .numero{
+            text-align: right;
+
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: gray;
+
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: rgb(156, 156, 157);
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes/extenças</h1>
+    <!--
+        anatomia para tabelas grandes
+
+        table
+            thead   
+                tr,td,th
+            tbody
+                tr,td,th
+            tfoot
+                tr,td,th
+    -->
+
+    <table>  
+        <caption>População</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">455</td>
+            </tr>
+            <tr>
+                <td>São Joao</td>
+                <td class="numero">4 555 555</td>
+            </tr>
+            <tr>
+                <td>porto</td>
+                <td class="numero">4 777 755</td>
+            </tr>
+            <tr>
+                <td>Lisboa</td>
+                <td class="numero">43 455</td>
+            </tr>
+            <tr>
+                <td>Braga</td>
+                <td class="numero">409 855</td>
+            </tr>
+            <tr>
+                <td>Coimbra</td>
+                <td class="numero">876 555</td>
+            </tr>
+            <tr>
+                <td>Evora</td>
+                <td class="numero">876 65</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">455</td>
+            </tr>
+            <tr>
+                <td>São Joao</td>
+                <td class="numero">4 555 555</td>
+            </tr>
+            <tr>
+                <td>porto</td>
+                <td class="numero">4 777 755</td>
+            </tr>
+            <tr>
+                <td>Lisboa</td>
+                <td class="numero">43 455</td>
+            </tr>
+            <tr>
+                <td>Braga</td>
+                <td class="numero">409 855</td>
+            </tr>
+            <tr>
+                <td>Coimbra</td>
+                <td class="numero">876 555</td>
+            </tr>
+            <tr>
+                <td>Evora</td>
+                <td class="numero">876 65</td>
+            </tr> <tr>
+                <td>São Paulo</td>
+                <td class="numero">455</td>
+            </tr>
+            <tr>
+                <td>São Joao</td>
+                <td class="numero">4 555 555</td>
+            </tr>
+            <tr>
+                <td>porto</td>
+                <td class="numero">4 777 755</td>
+            </tr>
+            <tr>
+                <td>Lisboa</td>
+                <td class="numero">43 455</td>
+            </tr>
+            <tr>
+                <td>Braga</td>
+                <td class="numero">409 855</td>
+            </tr>
+            <tr>
+                <td>Coimbra</td>
+                <td class="numero">876 555</td>
+            </tr>
+            <tr>
+                <td>Evora</td>
+                <td class="numero">876 65</td>
+            </tr> <tr>
+                <td>São Paulo</td>
+                <td class="numero">455</td>
+            </tr>
+            <tr>
+                <td>São Joao</td>
+                <td class="numero">4 555 555</td>
+            </tr>
+            <tr>
+                <td>porto</td>
+                <td class="numero">4 777 755</td>
+            </tr>
+            <tr>
+                <td>Lisboa</td>
+                <td class="numero">43 455</td>
+            </tr>
+            <tr>
+                <td>Braga</td>
+                <td class="numero">409 855</td>
+            </tr>
+            <tr>
+                <td>Coimbra</td>
+                <td class="numero">876 555</td>
+            </tr>
+            <tr>
+                <td>Evora</td>
+                <td class="numero">876 65</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Poulação total</td>
+                <td class="numero">22 223 242 242 666</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
